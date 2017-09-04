@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 404435 */
+  src: url('http://at.alicdn.com/t/font_404435_zzx94yh733c2qpvi.eot');
+  src: url('http://at.alicdn.com/t/font_404435_zzx94yh733c2qpvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_404435_zzx94yh733c2qpvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_404435_zzx94yh733c2qpvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_404435_zzx94yh733c2qpvi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:12px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.iconfont1{
+    font-family:"iconfont" !important;
+    font-size:14px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.iconfont2{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+#head{
+	width: 100%;
+	height: 32px;
+	background-color: #999;
+}
+.head-neikuan{
+	width: 1230px;
+	height: 32px;
+	background-color: #999;
+	margin: 0 auto;
+}
+.head-left{
+	height: 32px;
+	float: left;
+}
+.head-wenzi{
+	float: left;
+	line-height: 32px;
+	font-size: 12px;
+	color: gray;
+}
+.head-wenzi1{
+	margin-left: 20px;
+}
+.head-right{
+	height: 32px;
+	float: right;
+}
+.head-wenzi2{
+	float: left;
+	line-height: 32px;
+	font-size: 12px;
+	color: gray;
+	margin-left: 13px;
+}
+.sousuo{
+	width: 100%;
+	height: 130px;
+	background-color: #999;
+}
+
+.sousuo-neikuan{
+	width: 1230px;
+	height: 130px;
+	background-color: #999;
+	margin: 0 auto;
+}
+.sousuo-left{
+	width: 240px;
+	height: 130px;
+	float: left;
+}
+.sousuo-right{
+	width: 625px;
+
+	background-color:red;
+	height: 130px;
+	
+	margin: 0 auto;
+
+}
+.form fieldset{
+	position: relative;
+	width: 623px;
+	height: 36px;
+	top: 45px;
+	left: 0;
+	border: 2px red solid;
+}
+
+.sousuo-form .search-text {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 491px;
+  height: 36px;
+  border: 2px solid red;
+
+}
+.button{
+	position: absolute;
+	width: 132px;
+	height: 36px;
+	top: 45px;
+	right: 0;
+	float: right;
+}
+#biaotilan{
+	width: 100%;
+	height: 36px;
+	background-color: #ff0036;
+}
+.biaotilan-neikuan{
+	width: 1230px;
+	height: 36px;
+	margin: 0 auto;
+}
+.biaotilan-neikuan-left{
+	width: 200px;
+	height: 36px;
+	background-color: #e22127;
+	float: left;
+}
+.biaotilan-neikuan-left-wenzi{
+	font-size: 16px;
+	color: white;
+	margin-left: 14px;
+	line-height: 36px;
+}
+.biaotilan-neikuan-right{
+	height: 36px;
+	background-color: #ff0036;
+	float: left;
+}
+.biaotilan-neikuan-right-wenzi{
+	font-size: 16px;
+	color: white;
+	margin-left: 30px;
+	line-height: 36px;
+	float: left;
+}
+.banner-neikuan{
+	width: 1230px;
+	height: 500px;
+	background-color: rgb(0, 0, 0);
+	margin: 0 auto;
+    position: relative;
+    
+}
+.banner-neikuan-img{
+	width: 1230px;
+	height: 500px;
+}
+.banner-neikuan-list{
+	width: 172px;
+	height: 500px;
+	background-color: rgba(227, 225, 225, 0.6);
+	position:absolute;
+    left: 0;
+	top: 0;
+	padding: 0 14px;
+}
+.banner-neikuan-list-box{
+	width: 172px;	
+	height: 31.25px;	
+	padding: 0 14px;
+}
+.banner-neikuan-list-box:hover{
+
+	background-color: orangered;
+	
+}
+.banner-neikuan-list-box-wenzi{
+	font-size: 14px;
+	color: black;
+	line-height: 31.25px;
+}
+.banner-lunbodian{
+	width: 110px;
+	height: 10px;
+	/* background-color: pink; */
+	position: absolute;
+	bottom: 20px;
+	right: 571px;
+}
+.banner-lunbodian-1{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius:50%; 
+	border: 2px gray solid;
+	float: left;
+}
+.banner-lunbodian-2{
+	margin-left: 10px;
+	float: right;
+}
+#mpzhanshi{
+	width: 1230px;
+	height: 436px;
+	background-color: #f5f5f5;
+	
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.mpzhanshi-left{
+	width: 488px;
+	height: 436px;
+	background-color: gray;
+	float: left;
+
+}
+.mpzhanshi-right{
+	background-color: #f5f5f5;
+    margin-right: -1px;
+    width: 732px;
+    height: 436px;
+    float: right;
+    position: relative;
+}
+.mpzhanshi-right-box{
+	width: 121px;
+	height: 108px;
+	float: left;
+	background-color: gray;
+}
