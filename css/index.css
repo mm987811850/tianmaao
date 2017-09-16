@@ -393,6 +393,55 @@ input{
 	height: 108px;
 	float: left;
 	background-color: gray;
+	position:relative;
+	/* overflow: hidden; */
+}
+.mp-r-box-zhezhao{
+	width:121px;
+	height:108px;
+	float:left;
+	margin-bottom:1px;
+	margin-right:1px;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+.mp-r-box-zhezhao a{
+	display:block;
+	width:121px;
+	height:108px;
+}
+.mp-r-box-zhezhao a i{
+	font-size:20px;
+	line-height:20px;
+	color:#fff;
+	text-align:right;
+	display:block;
+	padding-top:10px;
+	margin-right:10px;
+}
+.mp-r-box-zhezhao a h1{
+	font-size:12px;
+	color:#fff;
+	padding:5px 0 ;
+	text-align:center;
+	margin:10px 20px 0 20px;
+}
+.mp-r-box-more{
+	width:63px;
+	height:18px;
+	background-color:#FF0036;
+	color:#fff;
+	font-size:12px;
+	line-height:18px;
+	border-radius:9px;
+	text-align:center;
+	margin:20px 20px 20px 25px;
+}
+.mpzhanshi-right-box:hover .mp-r-box-zhezhao{
+	display:block;
 }
 #chaoliu{
 	width: 1230px;
@@ -443,12 +492,16 @@ input{
 	text-align: center;
 	line-height: 14px;
 }
-.chaoliu-box-center img{
+.chaoliu-box-img{
 	width: 140px;
 	height: 140px;
 	background-color: #412;
 	margin-left:49px;
 	margin-top: 6px;
+}
+.chaoliu-box-img:hover{
+	width:150px;
+	height:150px;
 }
 .ing-gd{
 	width: 100%;
@@ -582,6 +635,9 @@ input{
 	float: right;
 	margin-top: 65px;
 }
+.mlrs-bottom-you-1-img:hover{
+	transform:translateX(-20px);
+}
 .mlrs-bottom-right{
 	width: 248px;
 	height: 440px;
@@ -617,6 +673,9 @@ input{
 	background-color: yellowgreen;
 	float: right;
 	margin-top: 46px;
+}
+.mlrs-bottom-right-1-img:hover{
+	transform:translateX(-20px);
 }
 .mlrs-bottom-right-2{
 	margin-bottom: 0px;
@@ -661,10 +720,14 @@ input{
     justify-content: space-between;
     margin-bottom:7px;
 }
+.like-neirong:hover{
+	border-color:#ff0036;
+}
 .like-neirong{
     width:239px;
     height:319px;
     background:#fff;
+    border:2px solid #fff;
  /*    float: left; */
 }
 .like-neirong-img{
