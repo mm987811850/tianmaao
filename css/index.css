@@ -24,6 +24,136 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;}
+nav{
+	/*text-align: center;*/
+	height: 50px;
+	width: 100%;
+	background:rgba(222,50,50,.8);
+	position: fixed;
+	top:-50px;
+	left: 0;
+	z-index: 999;
+	transition: top 1s;
+}
+.donglogo{
+	float: left;
+	/*width: 160px;*/
+	/*height: 30px;*/
+	line-height: 50px;
+	font-size: 30px;
+	color: #fff;
+}
+.input1{
+	float: left;
+	margin-left: 45px;
+	margin-top: 8px;
+    padding-left: 10px;
+	width: 648px;
+	height: 30px;
+}
+.dongsousuo{
+	float: left;
+	margin-top: 9px;
+	width: 90px;
+	height: 33px;
+	background: #c40000;
+	text-align: center;
+	color:#fff;
+	line-height: 33px;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+.btn{
+	/* height: 360px; */
+	width: 0;
+	height: 0;
+	position: fixed;
+	left: 50%;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	margin-left: -662px;
+	transition: all .5s;
+    text-align: center;
+	z-index: 1000;
+	overflow: hidden;
+}
+.btn ul li{
+	width: 36px;
+	height: 36px;
+	background:rgba(0,0,0,.6);
+	color:#fff;
+	font-size: 12px;
+	 padding: 2px 4px;
+	box-sizing:border-box;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+}
+.btn ul li:nth-child(1):hover{
+        	background: peru;
+ }
+.btn ul li:nth-child(1).active{
+            background: peru;
+}
+.btn ul li:nth-child(2):hover{
+            background: yellow;
+}
+.btn ul li:nth-child(2).active{
+            background: yellow;
+}
+.btn ul li:nth-child(3):hover{
+            background: green;
+}
+.btn ul li:nth-child(3).active{
+            background: green;
+}
+.btn ul li:nth-child(4):hover{
+            background: greenyellow;
+}
+.btn ul li:nth-child(4).active{
+            background: greenyellow;
+}
+.btn ul li:nth-child(5):hover{
+            background: blueviolet;
+}
+.btn ul li:nth-child(5).active{
+            background: blueviolet;
+ }
+.btn ul li:nth-child(6):hover{
+            background:palevioletred;
+}
+.btn ul li:nth-child(6).active{
+            background: palevioletred;
+}
+.btn ul li:nth-child(7):hover{
+            background:pink;
+}
+.btn ul li:nth-child(7).active{
+            background: pink;
+}
+.hdaohang{
+	width: 36px;
+	height: 36px;
+	background:red;
+	color:#fff;
+	font-size: 12px;
+	 padding: 10px 5px;
+	box-sizing:border-box;
+	border-bottom: 1px solid #fff;
+}
+.ddaohang{
+	width: 36px;
+	height: 36px;
+	background:#333;
+	color:#fff;
+	font-size: 12px;
+	 padding: 2px 4px;
+	box-sizing:border-box;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+	text-align: center;
+    line-height: 32px;
+}
 #head{
 	width: 100%;
 	height: 32px;
@@ -191,10 +321,7 @@ input{
     position: relative;
     
 }
-.banner-neikuan-img{
-	width: 1230px;
-	height: 500px;
-}
+
 .banner-neikuan-list{
 	width: 172px;
 	height: 500px;
@@ -203,6 +330,7 @@ input{
     left: 0;
 	top: 0;
 	padding: 0 14px;
+	z-index: 999;
 }
 .banner-neikuan-list-box{
 	width: 172px;	
@@ -222,25 +350,48 @@ input{
 .banner-neikuan-list-box-wenzi a{
 	color: black;
 }
-.banner-lunbodian{
-	width: 110px;
-	height: 10px;
-	/* background-color: pink; */
+#banner .banner-img{
+	height: 500px;
+	width: 100%;
+	background-color: #224472;
+}
+#banner .banner-img a{
+	display: block;
+	opacity:0;
+	transition: all .5s;
 	position: absolute;
-	bottom: 20px;
-	right: 571px;
+	left:0;
+	top:0;
+	width:100%;
+	height: 500px;
 }
-.banner-lunbodian-1{
-	width: 10px;
-	height: 10px;
-	background-color: black;
-	border-radius:50%; 
-	border: 2px gray solid;
-	float: left;
+#banner .banner-img .active{
+	opacity: 1;
+	z-index: 2;
 }
-.banner-lunbodian-2{
+#banner .banner-dots{
+	position: absolute;
+	bottom: 40px;
+	height: 22px;
+	left: 0;
+	width: 1349px;
+	text-align: center;
+	z-index:10;
+}
+#banner .banner-dots span{
+	display: inline-block;
+	height: 22px;
+	width: 22px;
+	border-radius: 11px;
 	margin-left: 10px;
-	float: right;
+	background-color: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+#banner .banner-dots .selected,#banner .banner-dots span:hover{
+	height: 18px;
+	width: 18px;
+	border: 2px solid rgba(0, 0, 0, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
 }
 #mpzhanshi{
 	width: 1230px;
@@ -927,6 +1078,9 @@ input{
 .section .iconfont2{
 	margin-top: 20px;
 }
-.section a{
+.section a {
 	color: #fff;
+}
+.totop1{
+	transition: all .5s;
 }
